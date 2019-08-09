@@ -1,0 +1,107 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "e0385eeee5b85cff9c27bd6845829effcafaec08"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "SportsStore.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "5.0.0",
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "SportsStore.Domain.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.0.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0",
+          "Microsoft.AspNet.WebPages": "3.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.0.0": {
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.0.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.0.0",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SportsStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNet.Mvc/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LAXc1XmFOdCqEIYKWQyjnPOpJdPOZbED57F/2sovdGtIWQr8Wu5z9hYDlxC4q/GVluP1ezl0x4Trl+PM0Y+xSA==",
+      "path": "microsoft.aspnet.mvc/5.0.0",
+      "hashPath": "microsoft.aspnet.mvc.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Razor/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5504UdLxJJBmp+Xzo4oQpB8QwSoy7VfX2dFN5VvnYaK71pR8XykMstI9wETxz4ES6En79J9YYKm+++zqf4egEA==",
+      "path": "microsoft.aspnet.razor/3.0.0",
+      "hashPath": "microsoft.aspnet.razor.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BfTcbFz6Xl4xpgwzoXlabjhC+FRo44cG6WOiyPNgUkVxFryB6RVt41gz9grrzrGxHj8/Z1XymSpoZPy9cJJv8Q==",
+      "path": "microsoft.aspnet.webpages/3.0.0",
+      "hashPath": "microsoft.aspnet.webpages.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bk+FleE3WkOCB707+eD9npx38gvHCA4FikXSW1ETDa+A0IPrhPTWpu/nLGAGxkkXePVRB+nwjDY1ZOs5aE6YBg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    }
+  }
+}
